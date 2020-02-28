@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 
 #Sette opp Variabler
 
@@ -69,7 +69,7 @@ for i in range(antall_steg-1):
         tid_brukt = tid[i]
         break
 
-print(f"En olympisk løper bruker {tid_brukt:.2f} sekunder på 100 meter")
+#print(f"En olympisk løper bruker {tid_brukt:.2f} sekunder på 100 meter")
 
 
 
@@ -78,7 +78,7 @@ print(f"En olympisk løper bruker {tid_brukt:.2f} sekunder på 100 meter")
 
 #Kode for å lage grafer for avstand hastighet og akselerasjon
 
-sns.set()
+#sns.set()
 fig, ax = plt.subplots(3, sharex = True,  figsize=(7,6.5) )
 fig.suptitle("Modell for 100 meter lop")
 plt.xlabel("Tid i sekunder")
